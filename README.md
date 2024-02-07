@@ -3,3 +3,5 @@
 <h3 align="left"><a href="https://gist.github.com/mecaneer23/">Check out my gists!</a></h3>
 
 <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=mecaneer23&show_icons=true&locale=en&layout=compact" alt="mecaneer23" />
+
+[![Most recently updated repo](https://mecaneer23.github.io/most-recent-git-commit/image/?user=mecaneer23)](https://mecaneer23.github.io/most-recent-git-commit/link/?user=mecaneer23)
