@@ -40,7 +40,7 @@ async function getLangColor(lang) {
 
 async function generateSvg() {
     const data = await getMostRecentRepo(process.env.USER);
-    const width = Math.max(data.desc.length, 300);
+    const width = Math.max(data.desc.length * 6, 300);
 
     const svgContent = `\
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="${width}" height="109"
