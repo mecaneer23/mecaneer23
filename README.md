@@ -8,4 +8,4 @@
 
 <!-- [![Most recently updated repo](https://mecaneer23.github.io/most-recent-git-commit/svg/index.svg?user=mecaneer23)](https://mecaneer23.github.io/most-recent-git-commit/link/?user=mecaneer23) -->
 
-![Most recently updated repo](recent-commit.svg)
+[![Most recently updated repo](recent-commit.svg)](https://mecaneer23.github.io/most-recent-git-commit/link/?user=mecaneer23)
