@@ -3,6 +3,7 @@ name: Update README with Recent Commit SVG
 on:
  schedule:
     - cron: '*/5 * * * *'
+ workflow_dispatch:
 
 env:
   USER: ${{ secrets.USER }}
