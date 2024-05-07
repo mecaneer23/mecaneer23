@@ -42,7 +42,7 @@ async function generateSvg() {
     const data = await getMostRecentRepo(process.env.USER);
 
     const svgContent = `\
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="442" height="109"
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="${Math.max(data.desc.length, 300)}" height="109"
     version="1.2" baseProfile="tiny" data-reactroot="">
     <defs />
     <g fill="none" stroke="black" stroke-width="1" fill-rule="evenodd" stroke-linecap="square" stroke-linejoin="bevel">
