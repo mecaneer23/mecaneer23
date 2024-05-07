@@ -40,14 +40,15 @@ async function getLangColor(lang) {
 
 async function generateSvg() {
     const data = await getMostRecentRepo(process.env.USER);
+    const width = Math.max(data.desc.length, 300);
 
     const svgContent = `\
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="${Math.max(data.desc.length, 300)}" height="109"
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="${width}" height="109"
     version="1.2" baseProfile="tiny" data-reactroot="">
     <defs />
     <g fill="none" stroke="black" stroke-width="1" fill-rule="evenodd" stroke-linecap="square" stroke-linejoin="bevel">
         <g fill="white" fill-opacity="1" stroke="none" transform="matrix(1,0,0,1,0,0)">
-            <rect x="0" y="0" width="${Math.max(data.desc.length, 300) - 2}" height="109" rx="6" ry="6" />
+            <rect x="0" y="0" width="${width}" height="109" rx="6" ry="6" />
         </g>
         <g fill="#586069" fill-opacity="1" stroke="none" transform="matrix(1.25,0,0,1.25,17,21)">
             <path vector-effect="none" fill-rule="evenodd"
