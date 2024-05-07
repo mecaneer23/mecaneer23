@@ -2,25 +2,40 @@ const fs = require('fs');
 const axios = require('axios');
 require("dotenv").config();
 
-async function getMostRecentRepo(user) {
-    const url = `https://api.github.com/users/${user}/repos?per_page=100`;
+async function getRepoInfo(user, repo) {
+    const url = `https://api.github.com/repos/${user}/${repo}`
     try {
         const response = await axios.get(url);
         const data = response.data;
         if (data.length === 0) {
             return [{ name: "repo_fetch_failed" }];
         }
-        data.sort((a, b) => new Date(b.pushed_at) - new Date(a.pushed_at));
         return {
-            repo: data[0].name,
-            url: data[0].html_url,
-            desc: data[0].description,
-            lang: data[0].language
+            repo: data.name,
+            url: data.html_url,
+            desc: data.description,
+            lang: data.language
         };
     } catch (error) {
         console.error("Error fetching repository data:", error);
         return [{ name: "repo_fetch_failed" }];
     }
+}
+
+async function getMostRecentRepo(user) {
+    const url = `https://api.github.com/users/${user}/events/public`;
+    return await axios.get(url)
+        .then(response => {
+            const mostRecentPushEvent = response.data.find(event => event.type === 'PushEvent');
+            if (!mostRecentPushEvent) {
+                console.log('No push events found.');
+                return;
+            }
+            return getRepoInfo(user, mostRecentPushEvent.repo.name.split('/')[1]);
+        })
+        .catch(error => {
+            console.error('Error fetching events:', error);
+        });
 }
 
 async function getLangColor(lang) {
@@ -37,6 +52,7 @@ async function getLangColor(lang) {
         return "gray";
     }
 }
+
 
 async function generateSvg() {
     const data = await getMostRecentRepo(process.env.USER);
