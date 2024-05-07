@@ -1,0 +1,16 @@
+{
+  "name": "recent-commit",
+  "version": "1.0.0",
+  "description": "generate an SVG with a user's most recent github repository",
+  "main": "generate-svg.js",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "axios": "^1.6.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mecaneer23",
+  "license": "ISC"
+}
