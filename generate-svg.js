@@ -47,7 +47,7 @@ async function generateSvg() {
     <defs />
     <g fill="none" stroke="black" stroke-width="1" fill-rule="evenodd" stroke-linecap="square" stroke-linejoin="bevel">
         <g fill="white" fill-opacity="1" stroke="none" transform="matrix(1,0,0,1,0,0)">
-            <rect x="0" y="0" width="440" height="109" rx="6" ry="6" />
+            <rect x="0" y="0" width="${Math.max(data.desc.length, 300)} - 2" height="109" rx="6" ry="6" />
         </g>
         <g fill="#586069" fill-opacity="1" stroke="none" transform="matrix(1.25,0,0,1.25,17,21)">
             <path vector-effect="none" fill-rule="evenodd"
