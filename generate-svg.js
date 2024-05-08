@@ -38,19 +38,8 @@ async function getMostRecentRepo(user) {
         });
 }
 
-async function getLangColor(lang) {
-    const url = "https://raw.githubusercontent.com/ozh/github-colors/master/colors.json";
-    try {
-        const response = await axios.get(url);
-        const data = response.data;
-        if (data[lang] !== undefined) {
-            return data[lang].color;
-        }
-        return "gray";
-    } catch (error) {
-        console.error("Error fetching language color data:", error);
-        return "gray";
-    }
+function getLangColor(lang) {
+    return JSON.parse(fs.readFileSync('github-colors.json', 'utf8'))[lang] || "gray";
 }
 
 
@@ -83,7 +72,7 @@ async function generateSvg() {
             stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,0)"><text class="lang" fill="#24292e" fill-opacity="1" stroke="none"
                 xml:space="preserve" x="33" y="91" font-family="sans-serif" font-size="12" font-weight="400"
                 font-style="normal">${data.lang}</text></g>
-        <circle class="lang-color" cx="23" cy="86" r="7" stroke="none" fill="${await getLangColor(data.lang)}" />
+        <circle class="lang-color" cx="23" cy="86" r="7" stroke="none" fill="${getLangColor(data.lang)}" />
     </g>
 </svg>`;
 
