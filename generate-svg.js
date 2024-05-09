@@ -42,7 +42,6 @@ function getLangColor(lang) {
     return JSON.parse(fs.readFileSync('github-colors.json', 'utf8'))[lang] || "gray";
 }
 
-
 async function generateSvg() {
     const data = await getMostRecentRepo(process.env.USER);
     const width = Math.max(data.desc.length * 7, 300);
