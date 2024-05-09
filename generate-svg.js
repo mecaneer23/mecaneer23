@@ -77,6 +77,15 @@ async function generateSvg() {
 
     fs.writeFileSync('recent-commit.svg', svgContent);
     fs.writeFileSync('current-file-name.txt', data.repo);
+
+    const content = fs.readFileSync("README.md", 'utf8');
+
+    const re = /\[\!\[Most recently updated repo\]\(recent-commit\.svg\)\].*/;
+    const replacementString = `[![Most recently updated repo](recent-commit.svg)](${data.url})`;
+    const formatted = content.replace(re, replacementString);
+
+    fs.writeFileSync("README.md", formatted, 'utf8');
+
 }
 
 generateSvg();
