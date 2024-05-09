@@ -27,4 +27,4 @@ jobs:
       run: node generate-svg.js
 
     - name: Commit and push if it changed
-      run: ./update-git.sh
+      run: bash update-git.sh
