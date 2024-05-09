@@ -10,4 +10,4 @@
 
 ### Most recently updated github repository
 
-[![Most recently updated repo](recent-commit.svg?rand=0.012324018967941441)](https://github.com/mecaneer23/mecaneer23)
+[![Most recently updated repo](recent-commit.svg?rand=0.6031232495115326)](https://github.com/mecaneer23/clock)
