@@ -7,5 +7,5 @@ echo $commit_message
 git config --global user.name 'GitHub Actions'
 git config --global user.email 'actions@github.com'
 git add README.md recent-commit.svg prev-file-name.txt
-git diff --quiet && git diff --staged --quiet || git commit -m "$commit_message"
+git diff --staged --quiet recent-commit.svg || git commit -m "$commit_message"
 git push
