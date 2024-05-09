@@ -81,7 +81,7 @@ async function generateSvg() {
     const content = fs.readFileSync("README.md", 'utf8');
 
     const re = /\[\!\[Most recently updated repo\]\(recent-commit\.svg.*/;
-    const replacementString = `[![Most recently updated repo](recent-commit.svg#${Math.random()})](${data.url})`;
+    const replacementString = `[![Most recently updated repo](recent-commit.svg)](${data.url})`;
     const formatted = content.replace(re, replacementString);
 
     fs.writeFileSync("README.md", formatted, 'utf8');
