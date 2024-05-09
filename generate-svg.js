@@ -77,6 +77,7 @@ async function generateSvg() {
 </svg>`;
 
     fs.writeFileSync('recent-commit.svg', svgContent);
+    fs.writeFileSync('current-file-name.txt', data.repo);
 }
 
 generateSvg();
