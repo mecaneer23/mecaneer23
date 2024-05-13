@@ -81,6 +81,12 @@ async function generateSvg(repoData) {
 async function main() {
     const data = await getMostRecentRepo(process.env.USER);
 
+    const prevRepoName = fs.readFileSync("prev-file-name.txt", "utf8").trim();
+    if (prevRepoName == data.repo) {
+        console.log(`Most recently updated repo is still ${data.repo}`);
+        return;
+    }
+
     generateSvg(data);
 
     console.log(`Updating current repo name to ${data.repo}...`);
