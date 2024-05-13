@@ -10,4 +10,4 @@
 
 ### Most recently updated github repository
 
-[![Most recently updated repo](recent-commit.svg)](https://github.com/mecaneer23/python-snake-game)
+[![Most recently updated repo](recent-commit.svg)](https://github.com/mecaneer23/mecaneer23)
