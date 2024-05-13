@@ -1,6 +1,6 @@
 #!/bin/bash
 
-[ -f current-file-name.txt ] || exit "Repo hasn't changed"
+# [ -f current-file-name.txt ] || echo "Repo hasn't changed"
 
 commit_message="Update recent commit SVG from $(cat prev-file-name.txt) to $(cat current-file-name.txt)"
 echo $(cat current-file-name.txt) > prev-file-name.txt
