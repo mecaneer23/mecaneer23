@@ -13,7 +13,7 @@ update() {
 }
 
 if [ -f current-file-name.txt ]; then
-  update();
+  update;
 else
   echo "Repo hasn't changed";
 fi;
