@@ -45,7 +45,7 @@ function getLangColor(lang) {
 async function generateSvg(repoData) {
     const width = Math.max(repoData.desc.length * 7, 300);
 
-    const svgContent = `\
+    return `\
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="${width}" height="109"
     version="1.2" baseProfile="tiny" data-reactroot="">
     <defs />
@@ -73,9 +73,6 @@ async function generateSvg(repoData) {
         <circle class="lang-color" cx="23" cy="86" r="7" stroke="none" fill="${getLangColor(repoData.lang)}" />
     </g>
 </svg>`;
-
-    console.log("Modifying svg...");
-    fs.writeFileSync('recent-commit.svg', svgContent);
 }
 
 async function main() {
@@ -87,7 +84,8 @@ async function main() {
         return;
     }
 
-    generateSvg(data);
+    console.log("Modifying svg...");
+    fs.writeFileSync('recent-commit.svg', await generateSvg(data));
 
     console.log(`Updating current repo name to ${data.repo}...`);
     fs.writeFileSync('current-file-name.txt', data.repo);
