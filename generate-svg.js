@@ -38,10 +38,6 @@ async function getMostRecentRepo(user) {
         });
 }
 
-function getLangColor(lang) {
-    return JSON.parse(fs.readFileSync('github-colors.json', 'utf8'))[lang] || "gray";
-}
-
 async function main() {
     const data = await getMostRecentRepo(process.env.USER);
 
