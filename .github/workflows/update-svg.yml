@@ -23,8 +23,8 @@ jobs:
     - name: Install dependencies
       run: npm ci
 
-    - name: Generate SVG
-      run: node generate-svg.js
+    - name: Update README
+      run: node update-readme.js
 
     - name: Commit and push if it changed
       run: bash update-git.sh
