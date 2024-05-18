@@ -4,7 +4,7 @@ update() {
   commit_message="Update recent commit SVG from $(cat prev-file-name.txt) to $(cat current-file-name.txt)"
   echo $(cat current-file-name.txt) > prev-file-name.txt
   echo $commit_message
-  
+
   git config --global user.name 'GitHub Actions'
   git config --global user.email 'actions@github.com'
   git add README.md prev-file-name.txt
