@@ -55,7 +55,7 @@ async function main() {
 
     console.log("Updating README.md...");
     const re = /\[\!\[Most recently updated repo\]\(.*/;
-    const replacementString = `[![Most recently updated repo](https://github-readme-stats.vercel.app/api/pin/?username=mecaneer23&repo=${data.repo})](${data.url})`;
+    const replacementString = `[![Most recently updated repo](https://github-readme-stats.vercel.app/api/pin/?theme=transparent&username=mecaneer23&repo=${data.repo})](${data.url})`;
     const formatted = content.replace(re, replacementString);
 
     fs.writeFileSync("README.md", formatted, 'utf8');
