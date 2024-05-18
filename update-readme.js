@@ -41,14 +41,14 @@ async function getMostRecentRepo(user) {
 async function main() {
     const data = await getMostRecentRepo(process.env.USER);
 
-    const prevRepoName = fs.readFileSync("prev-file-name.txt", "utf8").trim();
+    const prevRepoName = fs.readFileSync("prev-repo-name.txt", "utf8").trim();
     if (prevRepoName == data.repo) {
         console.log(`Most recently updated repo is still ${data.repo}`);
         return;
     }
 
     console.log(`Updating current repo name to ${data.repo}...`);
-    fs.writeFileSync('current-file-name.txt', data.repo);
+    fs.writeFileSync('current-repo-name.txt', data.repo);
 
     console.log("Reading README.md...");
     const content = fs.readFileSync("README.md", 'utf8');
