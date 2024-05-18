@@ -7,8 +7,8 @@ update() {
   
   git config --global user.name 'GitHub Actions'
   git config --global user.email 'actions@github.com'
-  git add README.md recent-commit.svg prev-file-name.txt
-  git diff --staged --quiet recent-commit.svg || git commit -m "$commit_message"
+  git add README.md prev-file-name.txt
+  git diff --staged --quiet README.md || git commit -m "$commit_message"
   git push
 }
 
