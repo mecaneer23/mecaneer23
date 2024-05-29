@@ -6,12 +6,13 @@ async function getMostRecentRepo(user) {
     const url = `https://api.github.com/users/${user}/events/public`;
     return await axios.get(url)
         .then(response => {
-            const mostRecentPushEvent = response.data.find(event => event.type === 'PushEvent');
-            if (!mostRecentPushEvent) {
-                console.log('No push events found.');
+            const mostRecentEvent = response.data.find(event => (event.type === "PushEvent" || event.type === "CreateEvent"));
+            if (!mostRecentEvent) {
+                console.log('No recent events found of correct type. Logging most recent event...');
+                console.log(response.data[0]);
                 return;
             }
-            const repoName = mostRecentPushEvent.repo.name;
+            const repoName = mostRecentEvent.repo.name;
             return {
                 repo: repoName.split('/')[1],
                 url: `https://github.com/${repoName}`
