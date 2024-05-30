@@ -8,4 +8,4 @@
 
 ### Most recently updated github repository
 
-[![Most recently updated repo](https://github-readme-stats.vercel.app/api/pin/?theme=transparent&username=mecaneer23&repo=color-visualizer)](https://github.com/mecaneer23/color-visualizer)
+[![Most recently updated repo](https://github-readme-stats.vercel.app/api/pin/?theme=transparent&username=mecaneer23&repo=ravinia-janam-xt3-firmware-updater)](https://github.com/mecaneer23/ravinia-janam-xt3-firmware-updater)
