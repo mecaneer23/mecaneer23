@@ -1,7 +1,7 @@
 #!/bin/bash
 
 update() {
-  commit_message="Update recent commit SVG from $(cat prev-repo-name.txt) to $(cat current-repo-name.txt)"
+  commit_message="chore: update recent commit SVG from $(cat prev-repo-name.txt) to $(cat current-repo-name.txt)"
   echo $(cat current-repo-name.txt) > prev-repo-name.txt
   echo $commit_message
 
