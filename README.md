@@ -8,4 +8,4 @@
 
 ### Most recently updated github repository
 
-[![Most recently updated repo](https://github-readme-stats.vercel.app/api/pin/?theme=transparent&username=mecaneer23&repo=battleship)](https://github.com/mecaneer23/battleship)
+[![Most recently updated repo](https://github-readme-stats.vercel.app/api/pin/?theme=transparent&username=mecaneer23&repo=python-snake-game)](https://github.com/mecaneer23/python-snake-game)
