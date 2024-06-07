@@ -1,1 +1,1 @@
-color-visualizer
+git-aliases
