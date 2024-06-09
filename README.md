@@ -8,4 +8,4 @@
 
 ### Most recently updated github repository
 
-[![Most recently updated repo](https://github-readme-stats.vercel.app/api/pin/?theme=transparent&username=mecaneer23&repo=audio-recorder)](https://github.com/mecaneer23/audio-recorder)
+[![Most recently updated repo](https://github-readme-stats.vercel.app/api/pin/?theme=transparent&username=mecaneer23&repo=color-visualizer)](https://github.com/mecaneer23/color-visualizer)
