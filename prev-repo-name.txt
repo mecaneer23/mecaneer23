@@ -1,1 +1,1 @@
-fast-typer
+Bin-snake
