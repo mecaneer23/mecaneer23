@@ -8,4 +8,4 @@
 
 ### Most recently updated github repository
 
-[![Most recently updated repo](https://github-readme-stats.vercel.app/api/pin/?theme=transparent&username=mecaneer23&repo=sl)](https://github.com/mecaneer23/sl)
+[![Most recently updated repo](https://github-readme-stats.vercel.app/api/pin/?theme=transparent&username=mecaneer23&repo=qr-code)](https://github.com/mecaneer23/qr-code)
