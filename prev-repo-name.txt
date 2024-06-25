@@ -1,1 +1,1 @@
-qr-code
+get-commit-links
