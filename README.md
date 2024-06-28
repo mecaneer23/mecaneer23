@@ -6,6 +6,6 @@
 
 <img align="center" src="https://github-readme-streak-stats-mecaneer23s-projects.vercel.app?user=mecaneer23&theme=dark&card_width=300&ring=4493F8&currStreakLabel=268811&background=00000000&currStreakNum=268811&fire=AAEBE0&hide_total_contributions=true&hide_longest_streak=true" alt="GitHub Streak" />
 
-<h3 title="Link updated at Thu Jun 27 2024 22:53:00 GMT+0000 (Coordinated Universal Time)">Most recently updated github repository</h3>
+<h3 title="Link updated at Fri Jun 28 2024 19:52:30 GMT+0000 (Coordinated Universal Time)">Most recently updated github repository</h3>
 
-[![Most recently updated repo](https://github-readme-stats.vercel.app/api/pin/?theme=transparent&username=mecaneer23&repo=mecaneer23.github.io)](https://github.com/mecaneer23/mecaneer23.github.io)
+[![Most recently updated repo](https://github-readme-stats.vercel.app/api/pin/?theme=transparent&username=mecaneer23&repo=pages)](https://github.com/mecaneer23/pages)
