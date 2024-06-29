@@ -1,1 +1,1 @@
-pages
+rock-paper-scissors
