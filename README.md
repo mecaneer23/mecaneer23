@@ -6,6 +6,6 @@
 
 <img align="center" src="https://github-readme-streak-stats-mecaneer23s-projects.vercel.app?user=mecaneer23&theme=dark&card_width=300&ring=4493F8&currStreakLabel=268811&background=00000000&currStreakNum=268811&fire=AAEBE0&hide_total_contributions=true&hide_longest_streak=true" alt="GitHub Streak" />
 
-<h3 title="Link updated at Sat Jun 29 2024 19:03:58 GMT+0000 (Coordinated Universal Time)">Most recently updated github repository</h3>
+<h3 title="Link updated at Mon Jul 01 2024 17:19:56 GMT+0000 (Coordinated Universal Time)">Most recently updated github repository</h3>
 
-[![Most recently updated repo](https://github-readme-stats.vercel.app/api/pin/?theme=transparent&username=mecaneer23&repo=rock-paper-scissors)](https://github.com/mecaneer23/rock-paper-scissors)
+[![Most recently updated repo](https://github-readme-stats.vercel.app/api/pin/?theme=transparent&username=mecaneer23&repo=most-recent-git-commit)](https://github.com/mecaneer23/most-recent-git-commit)
