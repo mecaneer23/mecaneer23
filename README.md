@@ -6,6 +6,6 @@
 
 <img align="center" src="https://github-readme-streak-stats-mecaneer23s-projects.vercel.app?user=mecaneer23&theme=dark&card_width=300&ring=4493F8&currStreakLabel=268811&background=00000000&currStreakNum=268811&fire=AAEBE0&hide_total_contributions=true&hide_longest_streak=true" alt="GitHub Streak" />
 
-<h3 title="Link updated at Wed Jul 03 2024 03:20:29 GMT+0000 (Coordinated Universal Time)">Most recently updated github repository</h3>
+<h3 title="Link updated at Wed Jul 03 2024 23:31:29 GMT+0000 (Coordinated Universal Time)">Most recently updated github repository</h3>
 
-[![Most recently updated repo](https://github-readme-stats.vercel.app/api/pin/?theme=transparent&username=mecaneer23&repo=rock-paper-scissors)](https://github.com/mecaneer23/rock-paper-scissors)
+[![Most recently updated repo](https://github-readme-stats.vercel.app/api/pin/?theme=transparent&username=mecaneer23&repo=python-snake-game)](https://github.com/mecaneer23/python-snake-game)
