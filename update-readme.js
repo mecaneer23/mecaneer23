@@ -13,8 +13,10 @@ async function getMostRecentRepo(user) {
                 return;
             }
             const repoName = mostRecentEvent.repo.name;
+            const [name, repo] = repoName.split('/');
             return {
-                repo: repoName.split('/')[1],
+                name: name,
+                repo: repo,
                 url: `https://github.com/${repoName}`
             };
         })
@@ -40,7 +42,7 @@ async function main() {
 
     console.log("Updating README.md...");
     const re = /\[\!\[Most recently updated repo\]\(.*/;
-    const replacementString = `[![Most recently updated repo](https://github-readme-stats.vercel.app/api/pin/?theme=transparent&username=mecaneer23&repo=${data.repo})](${data.url})`;
+    const replacementString = `[![Most recently updated repo](https://github-readme-stats.vercel.app/api/pin/?theme=transparent&username=${data.name}&repo=${data.repo})](${data.url})`;
     const newRepoFormatted = content.replace(re, replacementString);
 
     const formatted = newRepoFormatted.replace(/<h3 title=".*">Most recently updated github repository<\/h3>/, `<h3 title="Link updated at ${(new Date()).toString()}">Most recently updated github repository</h3>`)
