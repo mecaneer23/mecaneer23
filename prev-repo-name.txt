@@ -1,1 +1,1 @@
-link-opener
+wifi-qr-code
