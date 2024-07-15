@@ -2,7 +2,7 @@ name: Update README with Recent Commit SVG
 
 on:
  schedule:
-    - cron: '*/5 * * * *'
+    - cron: '*/5 * * * *' # use cron rather than webhook listener because listening for a user, not organization or single repo
  workflow_dispatch:
 
 env:
