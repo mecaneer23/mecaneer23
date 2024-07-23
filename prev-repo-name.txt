@@ -1,1 +1,1 @@
-pages
+python-snake-game
