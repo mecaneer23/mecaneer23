@@ -6,6 +6,6 @@
 
 <img align="center" src="https://github-readme-streak-stats-mecaneer23s-projects.vercel.app?user=mecaneer23&theme=dark&card_width=300&ring=4493F8&currStreakLabel=268811&background=00000000&currStreakNum=268811&fire=AAEBE0&hide_total_contributions=true&hide_longest_streak=true" alt="GitHub Streak" />
 
-<h3 title="Link updated at Tue Jul 23 2024 22:40:38 GMT+0000 (Coordinated Universal Time)">Most recently updated github repository</h3>
+<h3 title="Link updated at Tue Jul 23 2024 22:52:09 GMT+0000 (Coordinated Universal Time)">Most recently updated github repository</h3>
 
-[![Most recently updated repo](https://github-readme-stats.vercel.app/api/pin/?theme=transparent&username=mecaneer23&repo=2048)](https://github.com/mecaneer23/2048)
+[![Most recently updated repo](https://github-readme-stats.vercel.app/api/pin/?theme=transparent&username=mecaneer23&repo=tkinter-typing-test)](https://github.com/mecaneer23/tkinter-typing-test)
