@@ -1,1 +1,1 @@
-image-viewer
+fast-typer
