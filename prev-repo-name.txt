@@ -1,1 +1,1 @@
-.bashrc
+qr-code
