@@ -1,1 +1,1 @@
-qr-code
+flip-case
