@@ -9,6 +9,6 @@
 
 ---
 
-<h3 title="Link updated at Sun Aug 18 2024 01:22:54 GMT+0000 (Coordinated Universal Time)">Most recently updated github repository</h3>
+<h3 title="Link updated at Sun Aug 18 2024 22:34:44 GMT+0000 (Coordinated Universal Time)">Most recently updated github repository</h3>
 
-[![Most recently updated repo](https://github-readme-stats.vercel.app/api/pin/?theme=transparent&username=mecaneer23&repo=mecaneer23.github.io)](https://github.com/mecaneer23/mecaneer23.github.io)
+[![Most recently updated repo](https://github-readme-stats.vercel.app/api/pin/?theme=transparent&username=mecaneer23&repo=wifi-qr-code)](https://github.com/mecaneer23/wifi-qr-code)
