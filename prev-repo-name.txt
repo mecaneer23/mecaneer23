@@ -1,1 +1,1 @@
-guessing-game
+git-aliases
