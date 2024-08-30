@@ -9,6 +9,6 @@
 
 ---
 
-<h3 title="Link updated at Wed Aug 28 2024 01:05:47 GMT+0000 (Coordinated Universal Time)">Most recently updated github repository</h3>
+<h3 title="Link updated at Fri Aug 30 2024 02:16:08 GMT+0000 (Coordinated Universal Time)">Most recently updated github repository</h3>
 
-[![Most recently updated repo](https://github-readme-stats.vercel.app/api/pin/?theme=transparent&username=mecaneer23&repo=2048)](https://github.com/mecaneer23/2048)
+[![Most recently updated repo](https://github-readme-stats.vercel.app/api/pin/?theme=transparent&username=mecaneer23&repo=audio-recorder)](https://github.com/mecaneer23/audio-recorder)
