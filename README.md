@@ -9,6 +9,6 @@
 
 ---
 
-<h3 title="Link updated at Mon Sep 02 2024 22:11:42 GMT+0000 (Coordinated Universal Time)">Most recently updated github repository</h3>
+<h3 title="Link updated at Tue Sep 03 2024 20:30:44 GMT+0000 (Coordinated Universal Time)">Most recently updated github repository</h3>
 
-[![Most recently updated repo](https://github-readme-stats.vercel.app/api/pin/?theme=transparent&username=mecaneer23&repo=get)](https://github.com/mecaneer23/get)
+[![Most recently updated repo](https://github-readme-stats.vercel.app/api/pin/?theme=transparent&username=mecaneer23&repo=social-media-profile)](https://github.com/mecaneer23/social-media-profile)
