@@ -9,6 +9,6 @@
 
 ---
 
-<h3 title="Link updated at Sun Nov 24 2024 21:52:44 GMT+0000 (Coordinated Universal Time)">Most recently updated github repository</h3>
+<h3 title="Link updated at Tue Nov 26 2024 21:55:55 GMT+0000 (Coordinated Universal Time)">Most recently updated github repository</h3>
 
-[![Most recently updated repo](https://github-readme-stats.vercel.app/api/pin/?theme=transparent&username=mecaneer23&repo=mecaneer23.github.io)](https://github.com/mecaneer23/mecaneer23.github.io)
+[![Most recently updated repo](https://github-readme-stats.vercel.app/api/pin/?theme=transparent&username=mecaneer23&repo=logic-puzzles)](https://github.com/mecaneer23/logic-puzzles)
