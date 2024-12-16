@@ -45,7 +45,7 @@ async function main() {
     const replacementString = `[![Most recently updated repo](https://github-readme-stats.vercel.app/api/pin/?theme=transparent&username=${data.name}&repo=${data.repo})](${data.url})`;
     const newRepoFormatted = content.replace(re, replacementString);
 
-    const formatted = newRepoFormatted.replace(/<h3 title=".*">Most recently updated github repository<\/h3>/, `<h3 title="Link updated at ${(new Date()).toString()}">Most recently updated github repository</h3>`)
+    const formatted = newRepoFormatted.replace(/<h3 title=".*">Most recently updated GitHub repository<\/h3>/, `<h3 title="Link updated at ${(new Date()).toString()}">Most recently updated GitHub repository</h3>`)
 
     fs.writeFileSync("README.md", formatted, 'utf8');
 }
