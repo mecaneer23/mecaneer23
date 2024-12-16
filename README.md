@@ -17,5 +17,8 @@
 
 ### Pinned repositories
 
-| [![Clock](https://github-readme-stats.vercel.app/api/pin/?theme=transparent&username=mecaneer23&repo=clock)](https://github.com/mecaneer23/clock) | [![Logic Puzzles](https://github-readme-stats.vercel.app/api/pin/?theme=transparent&username=mecaneer23&repo=logic-puzzles)](https://github.com/mecaneer23/logic-puzzles) |
+| [![BinarytoDecimal](https://github-readme-stats.vercel.app/api/pin/?theme=transparent&username=mecaneer23&repo=BinarytoDecimal)](https://github.com/mecaneer23/BinaryToDecimal) | [![Ndo](https://github-readme-stats.vercel.app/api/pin/?theme=transparent&username=mecaneer23&repo=ndo)](https://github.com/mecaneer23/ndo) |
 | - | - |
+| [![mecaneer23.github.io](https://github-readme-stats.vercel.app/api/pin/?theme=transparent&username=mecaneer23&repo=mecaneer23.github.io)](https://github.com/mecaneer23/mecaneer23.github.io) | [![FtcRobotController](https://github-readme-stats.vercel.app/api/pin/?theme=transparent&username=mecaneer23&repo=FtcRobotController)](https://github.com/mecaneer23/FtcRobotController) |
+| [![Python Snake Game](https://github-readme-stats.vercel.app/api/pin/?theme=transparent&username=mecaneer23&repo=python-snake-game)](https://github.com/mecaneer23/python-snake-game) | [![sl](https://github-readme-stats.vercel.app/api/pin/?theme=transparent&username=mecaneer23&repo=sl)](https://github.com/mecaneer23/sl) |
+| [![Clock](https://github-readme-stats.vercel.app/api/pin/?theme=transparent&username=mecaneer23&repo=clock)](https://github.com/mecaneer23/clock) | [![Logic Puzzles](https://github-readme-stats.vercel.app/api/pin/?theme=transparent&username=mecaneer23&repo=logic-puzzles)](https://github.com/mecaneer23/logic-puzzles) |
