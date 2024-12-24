@@ -1,5 +1,7 @@
 # Hi 👋, I'm [Mecaneer23](https://mecaneer23.net)
 
+---
+
 ### [Check out my gists!](https://gist.github.com/mecaneer23/)
 
 ---
