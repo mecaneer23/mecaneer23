@@ -11,9 +11,13 @@
 
 ---
 
-<h3 title="Link updated at Wed Dec 25 2024 21:36:42 GMT+0000 (Coordinated Universal Time)">Most recently updated GitHub repository</h3>
+<div title="Link updated at Wed Dec 25 2024 21:36:42 GMT+0000 (Coordinated Universal Time)">
+
+### Most recently updated GitHub repository
 
 [![Most recently updated repo](https://github-readme-stats.vercel.app/api/pin/?theme=transparent&username=mecaneer23&repo=Bin-snake)](https://github.com/mecaneer23/Bin-snake)
+
+</div>
 
 ---
 
