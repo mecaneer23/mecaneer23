@@ -11,11 +11,11 @@
 
 ---
 
-<div title="Link updated at Sat Dec 28 2024 20:55:09 GMT+0000 (Coordinated Universal Time)">
+<div title="Link updated at Sun Dec 29 2024 16:25:42 GMT+0000 (Coordinated Universal Time)">
 
 ### Most recently updated GitHub repository
 
-[![Most recently updated repo](https://github-readme-stats.vercel.app/api/pin/?theme=transparent&username=mecaneer23&repo=qr-code)](https://github.com/mecaneer23/qr-code)
+[![Most recently updated repo](https://github-readme-stats.vercel.app/api/pin/?theme=transparent&username=mecaneer23&repo=mecaneer23.github.io)](https://github.com/mecaneer23/mecaneer23.github.io)
 
 </div>
 
