@@ -11,11 +11,11 @@
 
 ---
 
-<div title="Link updated at Fri Feb 14 2025 06:52:45 GMT+0000 (Coordinated Universal Time)">
+<div title="Link updated at Tue Feb 18 2025 08:37:34 GMT+0000 (Coordinated Universal Time)">
 
 ### Most recently updated GitHub repository
 
-[![Most recently updated repo](https://github-readme-stats.vercel.app/api/pin/?theme=transparent&username=mecaneer23&repo=mecaneer23.github.io)](https://github.com/mecaneer23/mecaneer23.github.io)
+[![Most recently updated repo](https://github-readme-stats.vercel.app/api/pin/?theme=transparent&username=mecaneer23&repo=python-snake-game)](https://github.com/mecaneer23/python-snake-game)
 
 </div>
 
