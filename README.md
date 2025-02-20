@@ -11,7 +11,7 @@
 
 ---
 
-<div title="Link updated at Wed Feb 19 2025 23:17:02 GMT+0000 (Coordinated Universal Time)">
+<div title="Link updated at Thu Feb 20 2025 17:02:19 GMT+0200 (Israel Standard Time)">
 
 ### Most recently updated GitHub repository
 
@@ -23,9 +23,10 @@
 
 ### Pinned repositories
 
-| [![BinarytoDecimal](https://github-readme-stats.vercel.app/api/pin/?theme=transparent&username=mecaneer23&repo=BinarytoDecimal)](https://github.com/mecaneer23/BinaryToDecimal) | [![Ndo](https://github-readme-stats.vercel.app/api/pin/?theme=transparent&username=mecaneer23&repo=ndo)](https://github.com/mecaneer23/ndo) |
+| [![BinarytoDecimal](https://github-readme-stats.vercel.app/api/pin/?theme=transparent&username=mecaneer23&repo=BinarytoDecimal)](https://github.com/mecaneer23/BinarytoDecimal) | [![Ndo](https://github-readme-stats.vercel.app/api/pin/?theme=transparent&username=mecaneer23&repo=Ndo)](https://github.com/mecaneer23/Ndo) |
 | - | - |
-| [![mecaneer23.github.io](https://github-readme-stats.vercel.app/api/pin/?theme=transparent&username=mecaneer23&repo=mecaneer23.github.io)](https://github.com/mecaneer23/mecaneer23.github.io) | [![FtcRobotController](https://github-readme-stats.vercel.app/api/pin/?theme=transparent&username=mecaneer23&repo=FtcRobotController)](https://github.com/mecaneer23/FtcRobotController) |
-| [![Python Snake Game](https://github-readme-stats.vercel.app/api/pin/?theme=transparent&username=mecaneer23&repo=python-snake-game)](https://github.com/mecaneer23/python-snake-game) | [![sl](https://github-readme-stats.vercel.app/api/pin/?theme=transparent&username=mecaneer23&repo=sl)](https://github.com/mecaneer23/sl) |
-| [![Pages](https://github-readme-stats.vercel.app/api/pin/?theme=transparent&username=mecaneer23&repo=pages)](https://github.com/mecaneer23/pages) | [![QR Code](https://github-readme-stats.vercel.app/api/pin/?theme=transparent&username=mecaneer23&repo=qr-code)](https://github.com/mecaneer23/qr-code) |
-| [![Clock](https://github-readme-stats.vercel.app/api/pin/?theme=transparent&username=mecaneer23&repo=clock)](https://github.com/mecaneer23/clock) | [![Logic Puzzles](https://github-readme-stats.vercel.app/api/pin/?theme=transparent&username=mecaneer23&repo=logic-puzzles)](https://github.com/mecaneer23/logic-puzzles) |
+| [![mecaneer23.github.io](https://github-readme-stats.vercel.app/api/pin/?theme=transparent&username=mecaneer23&repo=mecaneer23.github.io)](https://github.com/mecaneer23/mecaneer23.github.io) | [![python-snake-game](https://github-readme-stats.vercel.app/api/pin/?theme=transparent&username=mecaneer23&repo=python-snake-game)](https://github.com/mecaneer23/python-snake-game) |
+| [![sl](https://github-readme-stats.vercel.app/api/pin/?theme=transparent&username=mecaneer23&repo=sl)](https://github.com/mecaneer23/sl) | [![pages](https://github-readme-stats.vercel.app/api/pin/?theme=transparent&username=mecaneer23&repo=pages)](https://github.com/mecaneer23/pages) |
+| [![.bashrc](https://github-readme-stats.vercel.app/api/pin/?theme=transparent&username=mecaneer23&repo=.bashrc)](https://github.com/mecaneer23/.bashrc) | [![qr-code](https://github-readme-stats.vercel.app/api/pin/?theme=transparent&username=mecaneer23&repo=qr-code)](https://github.com/mecaneer23/qr-code) |
+| [![clock](https://github-readme-stats.vercel.app/api/pin/?theme=transparent&username=mecaneer23&repo=clock)](https://github.com/mecaneer23/clock) | [![logic-puzzles](https://github-readme-stats.vercel.app/api/pin/?theme=transparent&username=mecaneer23&repo=logic-puzzles)](https://github.com/mecaneer23/logic-puzzles) |
+| [![FtcRobotController](https://github-readme-stats.vercel.app/api/pin/?theme=transparent&username=mecaneer23&repo=FtcRobotController)](https://github.com/mecaneer23/FtcRobotController) | [![Bin-snake](https://github-readme-stats.vercel.app/api/pin/?theme=transparent&username=mecaneer23&repo=Bin-snake)](https://github.com/mecaneer23/Bin-snake) |

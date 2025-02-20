@@ -25,6 +25,33 @@ async function getMostRecentRepo(user) {
         });
 }
 
+function nonoverlappingPairs(arr, func) {
+    for (var i = 0; i < arr.length - 1; i += 2) {
+        func(arr[i], arr[i + 1] || null)
+    }
+}
+
+function format_repo(repoName) {
+    return `[![${repoName}](https://github-readme-stats.vercel.app/api/pin/?theme=transparent&username=mecaneer23&repo=${repoName})](https://github.com/mecaneer23/${repoName})`;
+}
+
+function format_repositories(repositories) {
+    let formatted = new Array();
+    formatted.push("### Pinned repositories");
+    formatted.push("");
+    nonoverlappingPairs(repositories, (left, right) => {
+        if (!right) {
+            formatted.push(`| ${format_repo(left)} | |`);
+            return;
+        }
+        formatted.push(`| ${format_repo(left)} | ${format_repo(right)} |`);
+    });
+    const tableInformerOffset = 3;
+    formatted = [...formatted.slice(0, tableInformerOffset), "| - | - |", ...formatted.slice(tableInformerOffset)];
+    formatted.push("");
+    return formatted.join("\n");
+}
+
 async function main() {
     const data = await getMostRecentRepo(process.env.USER);
 
@@ -45,7 +72,24 @@ async function main() {
     const replacementString = `[![Most recently updated repo](https://github-readme-stats.vercel.app/api/pin/?theme=transparent&username=${data.name}&repo=${data.repo})](${data.url})`;
     const newRepoFormatted = content.replace(re, replacementString);
 
-    const formatted = newRepoFormatted.replace(/<div title=".*">/, `<div title="Link updated at ${(new Date()).toString()}">`)
+    const formatted = newRepoFormatted
+        .replace(/<div title=".*">/, `<div title="Link updated at ${(new Date()).toString()}">`)
+        .replace(/### Pinned repositories[.\s\S]+$(?![\r\n])/, format_repositories(
+            [
+                "BinarytoDecimal",
+                "Ndo",
+                "mecaneer23.github.io",
+                "python-snake-game",
+                "sl",
+                "pages",
+                ".bashrc",
+                "qr-code",
+                "clock",
+                "logic-puzzles",
+                "FtcRobotController",
+                "Bin-snake",
+            ]
+        ));
 
     fs.writeFileSync("README.md", formatted, 'utf8');
 }
