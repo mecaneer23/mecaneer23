@@ -84,10 +84,10 @@ async function main() {
                 "pages",
                 ".bashrc",
                 "qr-code",
+                "local-file-server",
                 "clock",
                 "logic-puzzles",
                 "FtcRobotController",
-                "Bin-snake",
             ]
         ));
 
