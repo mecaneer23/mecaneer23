@@ -1,1 +1,1 @@
-pages
+qr-code
