@@ -11,11 +11,11 @@
 
 ---
 
-<div title="Link updated at Sat Aug 02 2025 06:14:25 GMT+0000 (Coordinated Universal Time)">
+<div title="Link updated at Sun Aug 03 2025 02:38:41 GMT+0000 (Coordinated Universal Time)">
 
 ### Most recently updated GitHub repository
 
-[![Most recently updated repo](https://github-readme-stats.vercel.app/api/pin/?theme=transparent&username=mecaneer23&repo=.bashrc)](https://github.com/mecaneer23/.bashrc)
+[![Most recently updated repo](https://github-readme-stats.vercel.app/api/pin/?theme=transparent&username=mecaneer23&repo=logic-puzzles)](https://github.com/mecaneer23/logic-puzzles)
 
 </div>
 
