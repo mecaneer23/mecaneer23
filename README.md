@@ -11,11 +11,11 @@
 
 ---
 
-<div title="Link updated at Wed Aug 20 2025 04:37:44 GMT+0000 (Coordinated Universal Time)">
+<div title="Link updated at Wed Aug 20 2025 17:19:58 GMT+0000 (Coordinated Universal Time)">
 
 ### Most recently updated GitHub repository
 
-[![Most recently updated repo](https://github-readme-stats.vercel.app/api/pin/?theme=transparent&username=mecaneer23&repo=python-snake-game)](https://github.com/mecaneer23/python-snake-game)
+[![Most recently updated repo](https://github-readme-stats.vercel.app/api/pin/?theme=transparent&username=mecaneer23&repo=logic-puzzles)](https://github.com/mecaneer23/logic-puzzles)
 
 </div>
 

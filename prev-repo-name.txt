@@ -1,1 +1,1 @@
-python-snake-game
+logic-puzzles
