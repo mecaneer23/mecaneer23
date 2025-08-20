@@ -11,11 +11,11 @@
 
 ---
 
-<div title="Link updated at Mon Aug 18 2025 04:28:46 GMT+0000 (Coordinated Universal Time)">
+<div title="Link updated at Wed Aug 20 2025 04:37:44 GMT+0000 (Coordinated Universal Time)">
 
 ### Most recently updated GitHub repository
 
-[![Most recently updated repo](https://github-readme-stats.vercel.app/api/pin/?theme=transparent&username=mecaneer23&repo=BinarytoDecimal)](https://github.com/mecaneer23/BinarytoDecimal)
+[![Most recently updated repo](https://github-readme-stats.vercel.app/api/pin/?theme=transparent&username=mecaneer23&repo=python-snake-game)](https://github.com/mecaneer23/python-snake-game)
 
 </div>
 
