@@ -11,11 +11,11 @@
 
 ---
 
-<div title="Link updated at Thu Aug 21 2025 03:48:35 GMT+0000 (Coordinated Universal Time)">
+<div title="Link updated at Fri Aug 22 2025 22:31:41 GMT+0000 (Coordinated Universal Time)">
 
 ### Most recently updated GitHub repository
 
-[![Most recently updated repo](https://github-readme-stats.vercel.app/api/pin/?theme=transparent&username=mecaneer23&repo=Ndo)](https://github.com/mecaneer23/Ndo)
+[![Most recently updated repo](https://github-readme-stats.vercel.app/api/pin/?theme=transparent&username=mecaneer23&repo=BinarytoDecimal)](https://github.com/mecaneer23/BinarytoDecimal)
 
 </div>
 
