@@ -32,7 +32,7 @@ function nonoverlappingPairs(arr, func) {
 }
 
 function format_repo(repoName) {
-    return `[![${repoName}](https://github-readme-stats.vercel.app/api/pin/?theme=transparent&username=mecaneer23&repo=${repoName})](https://github.com/mecaneer23/${repoName})`;
+    return `[![${repoName}](https://github-readme-stats-mecaneer23.vercel.app/api/pin/?theme=transparent&username=mecaneer23&repo=${repoName})](https://github.com/mecaneer23/${repoName})`;
 }
 
 function format_repositories(repositories) {
@@ -69,7 +69,7 @@ async function main() {
 
     console.log("Updating README.md...");
     const re = /\[\!\[Most recently updated repo\]\(.*/;
-    const replacementString = `[![Most recently updated repo](https://github-readme-stats.vercel.app/api/pin/?theme=transparent&username=${data.name}&repo=${data.repo})](${data.url})`;
+    const replacementString = `[![Most recently updated repo](https://github-readme-stats-mecaneer23.vercel.app/api/pin/?theme=transparent&username=${data.name}&repo=${data.repo})](${data.url})`;
     const newRepoFormatted = content.replace(re, replacementString);
 
     const formatted = newRepoFormatted
