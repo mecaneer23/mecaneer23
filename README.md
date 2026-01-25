@@ -11,11 +11,11 @@
 
 ---
 
-<div title="Link updated at Sat Jan 24 2026 20:10:00 GMT+0000 (Coordinated Universal Time)">
+<div title="Link updated at Sun Jan 25 2026 21:27:29 GMT+0000 (Coordinated Universal Time)">
 
 ### Most recently updated GitHub repository
 
-[![Most recently updated repo](https://github-readme-stats-mecaneer23.vercel.app/api/pin/?theme=transparent&username=Nnadozi&repo=Takeoff)](https://github.com/Nnadozi/Takeoff)
+[![Most recently updated repo](https://github-readme-stats-mecaneer23.vercel.app/api/pin/?theme=transparent&username=mecaneer23&repo=most-recent-git-commit)](https://github.com/mecaneer23/most-recent-git-commit)
 
 </div>
 
