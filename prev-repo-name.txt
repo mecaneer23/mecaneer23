@@ -1,1 +1,1 @@
-atlas
+local-file-server
